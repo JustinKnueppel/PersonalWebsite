@@ -11,7 +11,7 @@ import Navigation from "./components/navigation/navigation";
 function App() {
     return (
         <Router>
-            <div>
+            <div className="container">
                 <Navigation />
                 <Route exact path="/" component={Home} />
                 <Route path="/about" component={About} />
