@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
 
-export default function About() {
-    return (
-        <div>
-            <h1>About</h1>
-        </div>
-    )
+export default class About {
+    componentDidMount() {
+        document.title = "Justin Knueppel | About";
+    }
+    render() {
+        return (
+            <div>
+                <h1>About</h1>
+            </div>
+        );
+    }
 }

@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
 
-export default function Resume() {
-    return (
-        <div>
-            <h1>Resume</h1>
-        </div>
-    )
+export default class Resume {
+    componentDidMount() {
+        document.title = "Justin Knueppel | Resume";
+    }
+    render() {
+        return (
+            <div>
+                <h1>Resume</h1>
+            </div>
+        );
+    }
 }
