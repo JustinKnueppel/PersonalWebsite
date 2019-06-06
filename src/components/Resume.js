@@ -1,6 +1,6 @@
 import React from "react";
 
-export default class Resume {
+export default class Resume extends React.Component {
     componentDidMount() {
         document.title = "Justin Knueppel | Resume";
     }

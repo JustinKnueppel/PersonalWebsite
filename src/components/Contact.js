@@ -1,6 +1,6 @@
 import React from "react";
 
-export default class Contact {
+export default class Contact extends React.Component {
     componentDidMount() {
         document.title = "Justin Knueppel | Contact";
     }
