@@ -25,8 +25,11 @@ html, body, #root {
 }
 
 .nav-bar {
-    width: 100%;
-    padding-top: 5em;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    padding: 5em;
 }
 
 .nav-bar a {
@@ -53,6 +56,15 @@ html, body, #root {
 .nav-top-right {
     float: right;
     padding-right: 4em;
+}
+
+p {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+p a {
+    text-decoration: underline;
 }
 
 .fa {
