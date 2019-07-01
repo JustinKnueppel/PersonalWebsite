@@ -8,6 +8,9 @@ export default class Contact extends React.Component {
         return (
             <div className="content">
                 <h1>Contact</h1>
+                <p>
+                    Email: justinknueppel@gmail.com
+                </p>
             </div>
         );
     }
