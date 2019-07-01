@@ -6,7 +6,7 @@ export default class About extends React.Component {
     }
     render() {
         return (
-            <div style={contentStyle}>
+            <div className="content">
                 <h3>Education</h3>
                 <p>
                     Hi, my name is Justin Knueppel. I am a rising junior at the
@@ -66,10 +66,3 @@ export default class About extends React.Component {
         );
     }
 }
-
-const contentStyle = {
-    width: "80%",
-    position: "relative",
-    left: "50%",
-    transform: "translateX(-50%)"
-};

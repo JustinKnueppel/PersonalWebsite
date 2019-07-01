@@ -58,6 +58,13 @@ html, body, #root {
     padding-right: 4em;
 }
 
+.content {
+    width: 80%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 p {
     padding-top: 1em;
     padding-bottom: 1em;

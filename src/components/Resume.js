@@ -6,7 +6,7 @@ export default class Resume extends React.Component {
     }
     render() {
         return (
-            <div>
+            <div className="content">
                 <h1>Resume</h1>
             </div>
         );
