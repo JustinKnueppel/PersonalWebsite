@@ -32,11 +32,19 @@ export default class About extends React.Component {
                 <p>
                     Naturally following my love for music, I also have a love
                     for nice headphones. I currently am enjoying my{" "}
-                    <a href="https://majorhifi.com/etymotic-hf5-noise-isolating-earphones-review/">
+                    <a
+                        href="https://majorhifi.com/etymotic-hf5-noise-isolating-earphones-review/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         Etymotic Research hf5
                     </a>{" "}
                     IEMs and{" "}
-                    <a href="https://majorhifi.com/sennheiser-hd-579-review/">
+                    <a
+                        href="https://majorhifi.com/sennheiser-hd-579-review/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         Sennheiser HD 579
                     </a>{" "}
                     open backs. I love listening to music and having high
@@ -45,19 +53,35 @@ export default class About extends React.Component {
                 <p>
                     Additionally, I have been building computers for the past 5
                     years. My current build includes a{" "}
-                    <a href="https://www.amd.com/en/products/cpu/amd-ryzen-5-2600x">
+                    <a
+                        href="https://www.amd.com/en/products/cpu/amd-ryzen-5-2600x"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         Ryzen 5 2600x
                     </a>
                     ,{" "}
-                    <a href="https://www.amd.com/en/products/graphics/radeon-rx-580">
+                    <a
+                        href="https://www.amd.com/en/products/graphics/radeon-rx-580"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         RX 580
                     </a>
                     , and of course my{" "}
-                    <a href="https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=4164">
+                    <a
+                        href="https://mechanicalkeyboards.com/shop/index.php?l=product_detail&p=4164"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         Vortex Cypher
                     </a>{" "}
                     65% keyboard with Cherry MX Browns and{" "}
-                    <a href="https://www.amazon.com/Qisan-Mechanical-Keyboard-Backlight-Magicforce/dp/B01HHTFSIK">
+                    <a
+                        href="https://www.amazon.com/Qisan-Mechanical-Keyboard-Backlight-Magicforce/dp/B01HHTFSIK"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         Qisan Magicforce
                     </a>{" "}
                     full sized keyboard with gatreon reds.
