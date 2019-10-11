@@ -15,13 +15,16 @@ export default class Navigation extends Component {
                         <Link to="/about">About</Link>
                     </li>
                     <li>
-                        <Link to="/resume">Resume</Link>
-                    </li>
-                    <li>
                         <Link to="/projects">Projects</Link>
                     </li>
                     <li>
                         <Link to="/contact">Contact</Link>
+                    </li>
+                    <li>
+                    <a
+                        href="https://github.com/JustinKnueppel/Resume/raw/master/Resume.pdf"
+                        download
+                    >Resume</a>
                     </li>
                 </ul>
             </nav>
