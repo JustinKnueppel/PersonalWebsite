@@ -9,16 +9,17 @@ export default class About extends React.Component {
             <div className="content">
                 <h3>Education</h3>
                 <p>
-                    Hi, my name is Justin Knueppel. I am a rising junior at the
-                    Ohio State University studying Data Analytics. Currently, I
-                    am a claims analytics intern for Nationwide Insurance, have
-                    have held this position since the beginning of 2019.
+                    Hi, my name is Justin Knueppel. I am a junior at the
+                    Ohio State University studying Data Analytics. I
+                    spent the majority of 2019 as a claims analytics intern for Nationwide Insurance
+                    where I learned much about the role of Data Analytics in industry.
                 </p>
                 <p>
                     I began programming in high school by learning Java to
                     create Minecraft mods. Since then, I have taken courses with
                     Ohio State that teach software engineering principals, data
-                    structures and algorithms, discrete mathematics and more.
+                    structures and algorithms, systems programming, discrete 
+                    mathematics and more.
                 </p>
                 <h3>Hobbies</h3>
                 <p>
@@ -84,7 +85,7 @@ export default class About extends React.Component {
                     >
                         Qisan Magicforce
                     </a>{" "}
-                    full sized keyboard with gatreon reds.
+                    full sized keyboard with Gatreon reds.
                 </p>
             </div>
         );
