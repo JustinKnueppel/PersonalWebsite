@@ -22,7 +22,7 @@ export default class Navigation extends Component {
                     </li>
                     <li>
                     <a
-                        href="https://github.com/JustinKnueppel/Resume/raw/master/Resume.pdf"
+                        href="/assets/Resume.pdf"
                         download
                     >Resume</a>
                     </li>
