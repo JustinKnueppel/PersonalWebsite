@@ -8,9 +8,9 @@ const Home = () => {
 
   return (
     <div className="splash">
-      <h1>Automation | Web | Data Analytics</h1>
+      <h1>Justin Knueppel</h1>
       <hr />
-      <h2>Development with purpose</h2>
+      <h2>Automation | Web | Data Analytics</h2>
       <div className="icons">
         <a href="mailto:justinknueppel@gmail.com">
           <EmailIcon />
