@@ -1,4 +1,7 @@
 import React from "react";
+import GithubIcon from "./icons/Github";
+import LinkedInIcon from "./icons/Linkedin";
+import EmailIcon from "./icons/Email";
 
 export default class Home extends React.Component {
   componentDidMount() {
@@ -12,13 +15,13 @@ export default class Home extends React.Component {
         <h1 style={{ margin: "2em" }}>Development with purpose</h1>
         <div className="icons">
           <a href="mailto:justinknueppel@gmail.com">
-            <i className="fa fa-envelope" alt="Gmail" />
+            <EmailIcon />
           </a>
           <a href="https://www.linkedin.com/in/justin-knueppel-398266171">
-            <i className="fa fa-linkedin" alt="Linkedin" />
+            <LinkedInIcon />
           </a>
           <a href="https://www.github.com/JustinKnueppel">
-            <i className="fa fa-github" alt="Github" />
+            <GithubIcon />
           </a>
         </div>
       </div>

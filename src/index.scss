@@ -12,10 +12,6 @@ a {
   text-decoration: none;
 }
 
-a:visited {
-  color: inherit;
-}
-
 html,
 body,
 #root {
@@ -25,6 +21,22 @@ body,
 .container {
   height: 100%;
   background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  width: 15em;
+  margin: 0 auto;
+  justify-content: space-between;
+  a {
+    width: 3em;
+    height: 3em;
+    display: block;
+  }
+  svg {
+    fill: white;
+  }
 }
 
 .nav-bar {
@@ -73,21 +85,18 @@ body,
   h3 {
     color: silver;
   }
+
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+
+  a:visited {
+    color: inherit;
+  }
 }
 
 p {
   padding-top: 1em;
   padding-bottom: 1em;
-
-  a {
-    text-decoration: underline;
-  }
-}
-
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-  text-decoration: none;
-  color: white;
 }
