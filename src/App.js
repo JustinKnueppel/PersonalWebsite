@@ -6,7 +6,7 @@ import Projects from "./components/Projects";
 
 import Navigation from "./components/Navigation";
 
-function App() {
+const App = () => {
   return (
     <Router>
       <div className="container">
