@@ -12,14 +12,10 @@ a {
   text-decoration: none;
 }
 
-html,
-body,
-#root {
-  height: 100%;
+html {
+  height: auto;
+  min-height: 100%;
   font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
-}
-.container {
-  height: 100%;
   background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
 }
 
@@ -40,11 +36,13 @@ body,
 }
 
 .nav-bar {
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 80%;
-  padding: 5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 60%;
+  padding: 5em 0;
 
   a {
     color: white;
@@ -52,30 +50,16 @@ body,
     font-size: 1.5rem;
   }
 
-  ul {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+  .right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30%;
   }
-
-  li {
-    display: inline-block;
-    margin: 0 2em;
-  }
-}
-
-.nav-top-left {
-  float: left;
-  padding-left: 4em;
-}
-
-.nav-top-right {
-  float: right;
-  padding-right: 4em;
 }
 
 .content {
-  width: 80%;
+  width: 60%;
   position: relative;
   left: 50%;
   transform: translateX(-50%);
@@ -86,6 +70,12 @@ body,
     color: silver;
   }
 
+  p {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    line-height: 1.6em;
+  }
+
   a {
     color: white;
     text-decoration: underline;
@@ -94,9 +84,4 @@ body,
   a:visited {
     color: inherit;
   }
-}
-
-p {
-  padding-top: 1em;
-  padding-bottom: 1em;
 }

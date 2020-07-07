@@ -5,12 +5,12 @@ export default class Navigation extends Component {
   render() {
     return (
       <nav className="nav-bar">
-        <ul className="nav-top-left">
+        <ul className="left">
           <li>
             <Link to="/">Home</Link>
           </li>
         </ul>
-        <ul className="nav-top-right">
+        <ul className="right">
           <li>
             <Link to="/about">About</Link>
           </li>
