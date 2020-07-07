@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+$light-blue: #23FFF2;
+$dark-gray: #40464B;
+$light-gray: #4D5359;
+
 ul {
   list-style: none;
 }
@@ -16,7 +20,12 @@ html {
   height: auto;
   min-height: 100%;
   font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
-  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  background-color: $dark-gray;
+}
+
+.content, .splash, .nav-bar {
+  background-color: $light-gray;
+  border-radius: 1em;
 }
 
 .icons {
@@ -40,14 +49,20 @@ html {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
+  margin: 5em auto;
   width: 60%;
-  padding: 5em 0;
+  padding: 1.5em;
+  border-radius: 1em;
 
-  a {
+  a, a:visited {
     color: white;
     font-style: italic;
     font-size: 1.5rem;
+  }
+
+  .active a {
+    color: $light-blue;
+    font-weight: bold;
   }
 
   .right {
@@ -60,14 +75,15 @@ html {
 
 .content {
   width: 60%;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
+  padding: 1.5em;
+  margin: 2em auto;
   font-size: 1.5rem;
   color: white;
+  border-radius: 1em;
 
-  h3 {
-    color: silver;
+  h1, h3 {
+    color: $light-blue;
+    font-size: 1.4em;
   }
 
   p {
@@ -83,5 +99,25 @@ html {
 
   a:visited {
     color: inherit;
+  }
+}
+
+.splash {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1.5em;
+  color: $light-blue;
+
+  h1 {
+    margin-bottom: 2em;
+  }
+
+  h2 {
+    margin: 2em;
+  }
+
+  hr {
+    border-top: 2px dotted white;
   }
 }

@@ -9,10 +9,10 @@ export default class Home extends React.Component {
   }
   render() {
     return (
-      <div style={contentStyle}>
-        <h1 style={{ margin: "2em" }}>Automation | Web | Data Analytics</h1>
-        <hr style={{ borderTop: "2px dotted white" }} />
-        <h1 style={{ margin: "2em" }}>Development with purpose</h1>
+      <div className="splash" >
+        <h1 >Automation | Web | Data Analytics</h1>
+        <hr />
+        <h2 >Development with purpose</h2>
         <div className="icons">
           <a href="mailto:justinknueppel@gmail.com">
             <EmailIcon />
@@ -28,13 +28,3 @@ export default class Home extends React.Component {
     );
   }
 }
-
-const contentStyle = {
-  position: "absolute",
-  width: "50%",
-  height: "60%",
-  top: "50%",
-  left: "50%",
-  transform: "translate(-50%, -35%)",
-  textAlign: "center",
-};
