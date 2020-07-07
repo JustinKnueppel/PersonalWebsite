@@ -1,90 +1,92 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:visited {
-    color: inherit;
+  color: inherit;
 }
 
-html, body, #root {
-    height: 100%;
-    font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif;
+html,
+body,
+#root {
+  height: 100%;
+  font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
 }
 .container {
-    height: 100%;
-    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  height: 100%;
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
 }
 
 .nav-bar {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80%;
-    padding: 5em;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  padding: 5em;
 }
 
 .nav-bar a {
-    color: white;
-    font-style: italic;
-    font-size: 1.5rem;
+  color: white;
+  font-style: italic;
+  font-size: 1.5rem;
 }
 
 .nav-bar ul {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .nav-bar li {
-    display: inline-block;
-    margin: 0 2em;
+  display: inline-block;
+  margin: 0 2em;
 }
 
 .nav-top-left {
-    float: left;
-    padding-left: 4em;
+  float: left;
+  padding-left: 4em;
 }
 
 .nav-top-right {
-    float: right;
-    padding-right: 4em;
+  float: right;
+  padding-right: 4em;
 }
 
 .content {
-    width: 80%;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 1.5rem;
-    color: white;
+  width: 80%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+  color: white;
 }
 
 .content h3 {
-    color: silver;
+  color: silver;
 }
 
 p {
-    padding-top: 1em;
-    padding-bottom: 1em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 p a {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .fa {
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
 }

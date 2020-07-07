@@ -5,20 +5,20 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
-import Navigation from "./components/navigation";
+import Navigation from "./components/Navigation";
 
 function App() {
-    return (
-        <Router>
-            <div className="container">
-                <Navigation />
-                <Route exact path="/" component={Home} />
-                <Route path="/about" component={About} />
-                <Route path="/projects" component={Projects} />
-                <Route path="/contact" component={Contact} />
-            </div>
-        </Router>
-    );
+  return (
+    <Router>
+      <div className="container">
+        <Navigation />
+        <Route exact path="/" component={Home} />
+        <Route path="/about" component={About} />
+        <Route path="/projects" component={Projects} />
+        <Route path="/contact" component={Contact} />
+      </div>
+    </Router>
+  );
 }
 
 export default App;
