@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 ul {
@@ -32,23 +33,23 @@ body,
   transform: translateX(-50%);
   width: 80%;
   padding: 5em;
-}
 
-.nav-bar a {
-  color: white;
-  font-style: italic;
-  font-size: 1.5rem;
-}
+  a {
+    color: white;
+    font-style: italic;
+    font-size: 1.5rem;
+  }
 
-.nav-bar ul {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
+  ul {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 
-.nav-bar li {
-  display: inline-block;
-  margin: 0 2em;
+  li {
+    display: inline-block;
+    margin: 0 2em;
+  }
 }
 
 .nav-top-left {
@@ -68,19 +69,19 @@ body,
   transform: translateX(-50%);
   font-size: 1.5rem;
   color: white;
-}
 
-.content h3 {
-  color: silver;
+  h3 {
+    color: silver;
+  }
 }
 
 p {
   padding-top: 1em;
   padding-bottom: 1em;
-}
 
-p a {
-  text-decoration: underline;
+  a {
+    text-decoration: underline;
+  }
 }
 
 .fa {
