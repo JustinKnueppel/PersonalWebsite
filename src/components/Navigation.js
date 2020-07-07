@@ -18,9 +18,6 @@ export default class Navigation extends Component {
             <Link to="/projects">Projects</Link>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-          <li>
             <a href="/assets/Resume.pdf" download>
               Resume
             </a>
