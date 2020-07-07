@@ -22,7 +22,7 @@ const About = () => {
         I spent the majority of 2019 as a claims analytics intern for Nationwide
         Insurance where I learned much about the role of Data Analytics in
         industry. For the most part, my focus was on developing automated
-        systems to streamline the analytics process. I was proud to be strong
+        systems to streamline the analytics process. I was proud to be a strong
         programmer that could help develop systems that made the jobs of
         everyone around me more straightforward.
       </p>
