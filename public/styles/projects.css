@@ -1,0 +1,24 @@
+body {
+    background-color: var(--bg-primary);
+}
+
+main {
+    background-color: var(--bg-secondary);
+    width: 80%;
+    margin: 40% auto 20%;
+    padding: 1.5em;
+    border-radius: 1em;
+    color: white;
+}
+
+a {
+    color: var(--primary);
+}
+
+@media only screen and (min-width: 992px) {
+    main {
+        width: 50%;
+        margin: 20% auto;
+        text-align: center;
+    }
+}
