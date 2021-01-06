@@ -1,0 +1,24 @@
+body {
+    background-color: var(--bg-primary);
+}
+
+main {
+    background-color: var(--bg-secondary);
+    width: 80%;
+    margin: 10% auto 20%;
+    padding: 1em;
+    border-radius: 1em; 
+    color: white;
+    line-height: 1.6em;
+}
+
+h2 {
+    color: var(--primary);
+    text-align: center;
+    margin: 1em 0;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
