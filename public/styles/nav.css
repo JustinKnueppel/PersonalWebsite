@@ -40,3 +40,16 @@ nav a:visited {
 nav a.active {
     color: var(--primary);
 }
+
+@media only screen and (min-width: 992px) {
+    nav {
+        display: block;
+        border-radius: 1em;
+        position: absolute;
+        top: 5%;
+        width: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 1.25em;
+    }
+}
