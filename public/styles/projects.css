@@ -14,3 +14,11 @@ main {
 a {
     color: var(--primary);
 }
+
+@media only screen and (min-width: 992px) {
+    main {
+        width: 50%;
+        margin: 20% auto;
+        text-align: center;
+    }
+}
