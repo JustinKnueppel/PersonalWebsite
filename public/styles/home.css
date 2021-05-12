@@ -60,6 +60,11 @@ fieldset svg {
   height: 2rem;
 }
 
+.links svg:hover {
+  transform: scale(1.3);
+  transition: 250ms ease;
+}
+
 @media only screen and (min-width: 992px) {
   main {
     margin-top: 10%;
