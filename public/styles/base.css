@@ -1,11 +1,15 @@
 :root {
-    --bg-primary: #40464b;
-    --bg-secondary: #4d5359;
-    --primary: #23fff2;
+  --bg-primary: #40464b;
+  --bg-secondary: #4d5359;
+  --primary: #23fff2;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a:focus {
+  outline: 1px solid white;
 }
