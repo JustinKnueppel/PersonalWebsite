@@ -22,22 +22,19 @@ nav ul {
   justify-content: space-evenly;
 }
 
-nav a {
-  color: white;
-  font-style: italic;
-  text-decoration: none;
-}
-
-nav a:visited.active {
-  color: var(--primary);
-}
-
+nav a,
 nav a:visited {
   color: white;
+  font-style: italic;
 }
 
-nav a.active {
+a.active,
+a:visited.active {
   color: var(--primary);
+}
+
+nav a:hover {
+  outline: 1px solid white;
 }
 
 @media only screen and (min-width: 992px) {
