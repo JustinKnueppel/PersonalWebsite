@@ -3,8 +3,12 @@ body {
 }
 
 main {
-  background-color: var(--bg-secondary);
-  width: 80%;
+  background-color: rgba(from var(--bg-secondary) r g b / 70%);
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 25%;
+  bottom: 33%;
   margin: 40% auto 20%;
   padding: 1.5em;
   border-radius: 1em;
@@ -19,6 +23,8 @@ a:visited {
 
 @media only screen and (min-width: 992px) {
   main {
+    position: relative;
+    left: 0;
     width: 50%;
     margin: 20% auto;
     text-align: center;

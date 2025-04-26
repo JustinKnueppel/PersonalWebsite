@@ -3,13 +3,18 @@ body {
 }
 
 main {
-  background-color: var(--bg-secondary);
+  background-color: rgba(from var(--bg-secondary) r g b / 70%);
   width: 80%;
   margin: 10% auto 20%;
   padding: 1em;
   border-radius: 1em;
   color: white;
   line-height: 1.6em;
+}
+
+.intro {
+  font-style: italic;
+  text-align: center;
 }
 
 h2 {
